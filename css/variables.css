@@ -1,0 +1,10 @@
+:root {
+     --cor-principal: blue;
+    --cor-alternativa:green;
+
+    --texto-principal:black;
+    --texto-alternativo:white;
+
+     --altura-do-header:7.5vh;
+     --altura-do-footer:15vh;
+}
