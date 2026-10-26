@@ -8,3 +8,8 @@
      --altura-do-header:7.5vh;
      --altura-do-footer:15vh;
 }
+
+@font-face{
+     font-family: "fonte Titulo";
+     src:url(../assets/fonts/Pacifico.ttf)
+}
