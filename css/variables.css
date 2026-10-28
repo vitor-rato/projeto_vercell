@@ -1,10 +1,10 @@
 :root {
-     --cor-principal: #ffb6bb;
-    --cor-alternativa:#ffe591;
-
-    --texto-principal:black;
-    --texto-alternativo:#585872;
-
+     --cor-rosa: #ffb6bb;
+     --cor-amarela:#ffe591;
+     --cor-vermelha:#9e4446;
+     --cor-azul:#95d5ee;
+     --cor-roxa:#585872;
+     --cor-branca:#fafafa;
      --altura-do-header:7.5vh;
      --altura-do-footer:15vh;
 }

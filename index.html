@@ -5,16 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Padoca mágica</title>
     <link rel="stylesheet" href="./css/home.css">
+    <link
+    rel="shortcut icon"
+    href="assets/img/LogoImage.png"
+    type="image/png"/>
  </head>
 <body>
+
  <header id="header" class="header">
-    <div class="logo">
-    <img src="./assets/img/LogoImage.png" alt="Logo da Padoca">
-</div>
+   <a href="./index.html#hero" class="LogoImage">
+    <img src="./assets/img/LogoImage.png" alt="logo da Padoka Magika"/>
+   </a>
+
     <nav class="navigation">
-        <a href="">Início</a> 
-        <a href="">Sobre</a>
-        <a href="">Como Chegar</a>
+        <a href="./index.html#hero">Início</a> 
+        <a href="./index.html#historia">Sobre</a>
+        <a href="./index.html#comoChegar">Como Chegar</a>
+        <a href="./index.html#comoChegar">Contato </a>
         <a href="">Cardápio</a>
     </nav>
  </header>   
@@ -22,9 +29,58 @@
 
  <main id="content" class="content">
     <section id="hero" class="hero">
-        <img src="./assets/img/heroImage.png" alt="pão quentinho">
-        <svg><use href="./assets/icons/seta.svg"></use> </svg>
+        <div class="heroTexto">
+            <p class="heroTag">Padaria artesanal de Mitakihara</p>
+            <h1 class="heroTitulo">faça um contrato com o pão quentinho</h1>
+            <p class="heroSubtitulo">Aqui ninguém precisa virar garota mágica para ter um desejo
+                realizado. Experimente o Croissant Rosa da Madoka, o pão de Queijo da Charlotte e 
+                a Torta Tiro Finale da Mami, sempre com um chá bem quentinho.
+            </p>
+            <div class="heroBotoes">
+                <a href="#contato" class="botao">Fazer meu pedido</a>
+                <a href="#historia" class="botao botaoSecundario">conheça a gente</a>
+            </div>
+        </div>
+        <div class="heroImagem">
+            <div class="circulo">
+                <img src="./assets/img/heroImage.png"
+                     alt="Pão Quentinho"
+                     class="pao"/>
+            </div>
+            <p class="selo">Desde<br />2011</p>
+        </div>
     </section>
  </main>
+
+ <footer id="footer" class="footer">
+    <div class="footerContainer">
+    <div class="footerColuna">
+     <p class="footerLogo">Padoka Magika</p>
+     <p>
+        Padaria artesanal de Mitakihara desde 2011. Pão quentinho, chá da tarde e nenhum contrato escondido.
+     </p>
+        </div>
+        <div class="footerColuna">
+            <h3>Navegação</h3>
+        <a href="./index.html#hero">Início</a>
+        <a href="./index.html#historia">Sobre</a>
+         <a href="./index.html#comoChegar">Como chegar</a>
+          <a href="./index.html#Contato">Contato</a>
+           <a href="">cardápio</a>
+        </div>
+    <div class="footerColuna">
+        <h3>Fale com a gente</h3>
+        <p>(11) 12345-6789</p>
+        <p>(11) 91234-5678</p>
+        <p>contato@padokamagika.br</p>
+        <p>@padokamagika</p>
+    </div>
+    </div>
+    <div class="copyright">
+        <p>
+            &copy; 2026 Padoka Magika. Todos os direitos reservados. Nenhuma SoulGem foi...(steven universe aqui não!)
+        </p>
+    </div>
+ </footer>
 </body>
 </html>
