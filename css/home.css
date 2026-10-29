@@ -41,6 +41,76 @@
         font-size:large;
 }
 
+.historia {
+        padding: 100px 50px;
+        background-color: var(--cor-branca);
+}
+
+.tituloSecao {
+        margin-bottom: 50px;
+
+        font-family: "Fonte Titulo";
+        font-size: 42px;
+        font-weight: 300;
+        text-align: center;
+        color: var(--cor-vermelha);
+}
+
+.historiaConteudo {
+        display:flex;
+        align-items: center;
+        gap: 50px;
+}
+
+.historiaTexto {
+        width:50%
+}
+
+.historiaTexto p {
+        margin-bottom: 20px;
+        font-size: 17px;
+        line-height: 1.8;
+}
+
+.historiaCards {
+        width:50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 20px;
+}
+
+.card {
+width: 45%;
+padding: 25px;
+
+background-color: var(--cor-rosa);
+border-radius: 15px;
+text-align: center;
+transition: 300ms;
+}
+
+.card :hover{
+        transform: scale(1.05);
+}
+
+.cardNumero{
+        display: block;
+        margin-bottom: 10px;
+
+        font-size: 32px;
+        font-weight: bold;
+        color: var(--cor-vermelha);
+}
+
+.cardAzul {
+        background-color: var(--cor-azul);
+}
+
+.cardAmarelo {
+        background-color: var(--cor-amarela);
+}
+
 .botao {
         display: inline-block;
         background-color: var(--cor-vermelha);
@@ -113,4 +183,16 @@
 
         height: 100px;
         width:100px;
+
+        background-color: var(--cor-azul);
+        border: 5px solid var(--cor-branca);
+        border-radius: 50%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-weight: bold;
+
+        transform: rotate(-12deg);
 }
