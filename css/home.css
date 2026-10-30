@@ -1,8 +1,8 @@
 @import url(layout.CSS);
 
 .hero{
+         display: flex;
         align-items:center;
-        display: flex;
         justify-content: space-between;
         min-height: 100vh;
         padding: 120px 50px 60px 50px;
@@ -284,4 +284,92 @@ transition: 300ms;
         font-weight: bold;
 
         transform: rotate(-12deg);
+}
+
+.formulario input:focus,
+.formulario select:focus,
+.formulario textarea:focus {
+        outline:none;
+        border-color: var(--cor-vermelha);
+}
+
+.formulario textarea {
+        height: 130px;
+        resize: vertical;
+}
+
+.botaoEnviar {
+        margin-top: 10px;
+        font-family: inherit;
+        font-size: 16px;
+        cursor:pointer;
+}
+
+@media (max-width:768px) {
+        .hero {
+                flex-direction: column;
+                padding: 190px 20px 60px;
+        }
+
+        .heroTexto 
+        .heroImagem{
+                width:100% 
+        }     
+
+        .heroTexto {
+                text-align: center;
+        }
+
+        .heroTag {
+                margin:0 auto 20px;
+        }
+            
+        .heroTitulo {
+                font-size: 38px;
+        }
+
+        .botaoSecundario {
+                margin-left: 0;
+                margin-top: 10px;
+        }
+
+        .circulo {
+                width: 250px;
+                height: 250px;
+                margin-top: 40px;
+        }
+
+        .selo {
+                width: 85px;
+                height: 85px;
+                right: 20px;
+                font-size: 14px;
+        }
+
+        .historia
+        .comoChegar
+        .contato {
+                padding:70px 20px;
+        }
+
+        .tituloSecao {
+                font-size: 34px;
+        }
+
+        .historiaConteudo,
+        .comoChegarConteudo {
+                flex-direction: column;
+        }
+
+        .historiaTexto,
+        .historiaCards,
+        .mapa,
+        .infoEndereco,
+        .card {
+                width:100%;
+        }
+
+        .formulario {
+                padding:25px;
+        }
 }
