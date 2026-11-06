@@ -25,7 +25,7 @@ a{
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 100%;
+    z-index: 100;
 
     background-color: var(--cor-roxa);
     color:var(--cor-amarela);
@@ -53,7 +53,7 @@ a{
 }
 
 .logoContainer img {
-    height:calc(var(--altura-header) - 1vh);
+    height:calc(var(--altura-do-header) - 1vh);
 }
 
 .logoContainer:hover{
