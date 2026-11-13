@@ -3,7 +3,7 @@
 .cardapioTopo {
     background-color:var(--cor-amarela);
     text-align: center;
-    padding: calc(var(--altura-header) + 60px);
+    padding: calc(var(--altura-do-header) + 30px);
 }
 
 .cardapioTag {
@@ -21,7 +21,7 @@
     color:var(--cor-vermelha);
 
     font-family: "Fonte Titulo";
-    font-size: 56px;
+    font-size: 60px;
 }
 
 .cardapioSubtitulo {
